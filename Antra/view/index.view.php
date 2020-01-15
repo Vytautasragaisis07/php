@@ -17,13 +17,50 @@
             <?php endforeach;?>
         </ul>
         <table>
+            <thead>
+            <tr>
+                <th>Klasė</th>
+                <th>Kodas</th>
+                <th>Vardas Pavardė</th>
+                <th>Kontrolinių darbų</th>
+                <th>Vidurkis</th>
+                <th>Duomenų formavimo data</th>
+            </tr>
+            </thead>
             <ul>
-                <?php foreach($mokiniai as $numeris => $vardas):?>
-                    <ul><?=$vardas;?><span></span><?=$pavarde;?></ul>
-                    <?php foreach($vardas as $pavarde => $pazymys):?>
-                        <li><span><?=$pazymys;?></span></li>
-                    <?php endforeach; ?>
-                <?php endforeach; ?>
+                <?php
+                // set the default timezone to use. Available since PHP 5.1
+                date_default_timezone_set('UTC');
+
+                $today = date("Y-m-d H:i:s");
+                echo $today
+                ?>
+                <?php foreach ($mokiniai as $id => $duomenys): ?>
+                    <?php foreach ($duomenys as $visi => $pazymiai): ?>
+                        <?php if(is_array($pazymiai)):?>
+
+                            <?php foreach ($pazymiai as $data => $duom): ?>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th><?=$data;?></th>
+                                <th><?=$duom;?></th>
+                                <th><?=$today;?></th>
+                            </tr>
+                            <?php endforeach;?>
+                        <?php else :?>
+                        <tr>
+                            <th>5b</th>
+                            <th><?=$id;?></th>
+                            <th><?=$pazymiai;?></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <?php endif; ?>
+                    <?php endforeach;?>
+                <?php endforeach;?>
             </ul>
         </table>
     </nav>
