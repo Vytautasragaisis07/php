@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d8362d5-bce9-4c25-9589-40f089fefcf2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Antra/view/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Antra/view/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Antra/view/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Antra/view/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Antra/Data/mokiniai.php" beforeDir="false" afterPath="$PROJECT_DIR$/Antra/Data/mokiniai.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,7 @@
       <updated>1579073603001</updated>
       <workItem from="1579073604320" duration="6510000" />
       <workItem from="1579104217046" duration="5020000" />
+      <workItem from="1579120741973" duration="93000" />
     </task>
     <servers />
   </component>

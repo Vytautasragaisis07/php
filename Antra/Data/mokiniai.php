@@ -35,8 +35,8 @@ $mokiniai = [
         ]
     ],
     4 => [
-        'vardas' => 'Igne',
-            'Pavarde' => 'Guobyte',
+        'vardas' => 'Paulius',
+            'Pavarde' => 'Peleckas',
             'Kontrolinio darbo ivertinimas' => [
             'Lietuviu' => 9,
             'Matematika' => 6,
@@ -46,8 +46,8 @@ $mokiniai = [
         ]
     ],
     5 => [
-        'vardas' => 'Agne',
-            'Pavarde' => 'Poskute',
+        'vardas' => 'Povilas',
+            'Pavarde' => 'Teisiunas',
             'Kontrolinio darbo ivertinimas' => [
             'Lietuviu' => 6,
             'Matematika' => 7,
