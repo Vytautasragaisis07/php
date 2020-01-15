@@ -17,7 +17,14 @@
             <?php endforeach;?>
         </ul>
         <table>
-            <
+            <ul>
+                <?php foreach($mokiniai as $numeris => $vardas):?>
+                    <ul><?=$vardas;?><span></span><?=$pavarde;?></ul>
+                    <?php foreach($vardas as $pavarde => $pazymys):?>
+                        <li><span><?=$pazymys;?></span></li>
+                    <?php endforeach; ?>
+                <?php endforeach; ?>
+            </ul>
         </table>
     </nav>
 </body>
