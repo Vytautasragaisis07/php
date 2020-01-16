@@ -11,6 +11,7 @@
 <body>
 <div class="container">
     <h1><?=siteName;?></h1>
+    <table>
     <?php
     $skrydziaiis = ['Roma','Briuselis','Londonas', 'Oslas', 'Ženeva'];
     $skrydziaii = ['Berlynas','Miunchenas','Jeruzalė', 'Michiganas', 'Vilnius'];
@@ -18,10 +19,12 @@
     $bagazas = ['<20kg', '>20kg'];
     if(isset($_GET['submit'])){
         foreach ($_GET as $value){
-            echo "$value<br>";
+            echo "<table><tr>$value</tr></table><br>";
         }
     }
+    echo intval("price");
     ?>
+    </table>
 
         <form>
 
