@@ -1,7 +1,17 @@
+.Head{
+    background-color: lightgray;
+}
+
+.ticket{
+    height: 200px;
+}
 table {
     border-collapse: collapse;
 }
 
 table, th, td {
     border: 0.1px solid black;
+}
+h1{
+    color: #1c7430;
 }
