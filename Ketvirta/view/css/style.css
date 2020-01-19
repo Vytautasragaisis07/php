@@ -15,3 +15,13 @@ table, th, td {
 h1{
     color: #1c7430;
 }
+li{
+    color: red;
+    text-transform: uppercase;
+}
+p{
+    font-weight: bold;
+}
+.row ticket{
+    font-weight: bold;
+}
