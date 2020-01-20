@@ -1,7 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: moksleivis
- * Date: 2020-01-20
- * Time: 09:17
- */
+include 'inc/config.php';
+include 'templates/index.view.php';
+
