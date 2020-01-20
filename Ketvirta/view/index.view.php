@@ -43,7 +43,11 @@ if ($svoris >= 20) {
 <?php if($validation_errors) :?>
     <div class="errors">
         <ul>
+<<<<<<< HEAD
             <?php foreach($validation_errors as $error):?>
+=======
+            <?php foreach($validation_errors as $error) :?>
+>>>>>>> fb96e861aac21e1cec5fb14f4a64aedaa0f835fe
                 <li><?=$error;?></li>
             <?php endforeach; ?>
         </ul>
@@ -101,7 +105,11 @@ if ($svoris >= 20) {
                 <?php endforeach;?>
             </select>
         </div>
+<<<<<<< HEAD
         <div class="form-group">
+=======
+    <div class="form-group">
+>>>>>>> fb96e861aac21e1cec5fb14f4a64aedaa0f835fe
             <label for="formGroupExampleInput2">Pastabos</label>
             <input type="text" class="form-control" id="pastabos" name="pastabos" placeholder="...">
         </div><input type="submit" value="Submit" class="btn btn-primary mb-2" name="submit">
@@ -113,8 +121,13 @@ if ($svoris >= 20) {
         <div class="row ticket">
             <div class="row ticket mainInfo">
                 <div class="col-sm-3">Skrydžio Numeris<p><?=$flyNr;?></p></div>
+<<<<<<< HEAD
                 <div class="col-sm-3">Skrydis pirmyn<p><?=$isKur;?></p></div>
                 <div class="col-sm-3">Skrydis atgal<p><?=$iKur;?></p></div>
+=======
+                <div class="col-sm-3">Skrydis pirmyn<p><?=$isKur?></p></div>
+                <div class="col-sm-3">Skrydis atgal<p><?=$iKur?></p></div>
+>>>>>>> fb96e861aac21e1cec5fb14f4a64aedaa0f835fe
             </div>
 
             <div class="row personal">
@@ -126,16 +139,28 @@ if ($svoris >= 20) {
 
             <div class="col price">
                 <div class="row price mainInfo">
+<<<<<<< HEAD
                     <div class="col-sm-3">Bilieto kaina<p><?=$kaina;?>€‎</p></div>
                     <div class="col-sm-3">Bagažo kaina<p><?=$bagKaina;?>€‎</p></div>
                     <div class="col-sm-3">Galutinė kaina<p><?=$kainuoja;?>€‎</p></div>
+=======
+                    <div class="col-sm-3">Bilieto kaina<p><?=$kaina?>€‎</p></div>
+                    <div class="col-sm-3">Bagažo kaina<p><?=$bagKaina; ?>€‎</p></div>
+                    <div class="col-sm-3">Galutinė kaina<p><?=$kainuoja; ?>€‎</p></div>
+>>>>>>> fb96e861aac21e1cec5fb14f4a64aedaa0f835fe
                 </div>
             </div>
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+=======
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+>>>>>>> fb96e861aac21e1cec5fb14f4a64aedaa0f835fe
 </body>
 </html>
